@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #333;
+  padding: 15px;
+  width: 250px;
+  height: 100dvh;
+}
+
+.navLink {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+}
+
+.navItem {
+  color: white;
+  padding: 15px;
+  border-bottom: solid 1px rgba(211, 211, 211, 0.23);
+}
+
+.navItem:hover {
+  background-color: darkgray;
+}
+
+.active {
+  color: #007bff;
+}
+
+.content {
+  width: 100%;
+}
+
+.contentHeader {
+  background: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.descrip {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+table {
+  font-size: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+.textTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.textFormat {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.exampleList {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 2px;
+}
+
+.galleryList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: #333;
+  color: white;
+}
+
+.imgContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+}
+
+.infoContainer {
+  color: black;
+  margin-top: 50px;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subhead {
+  color: black;
+}
+
+.info {
+  width: 40%;
+  margin-left: 50px;
+}
