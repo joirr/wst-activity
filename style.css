@@ -110,8 +110,8 @@ ul {
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: darkgray;
   color: white;
   display: flex;
@@ -172,3 +172,4 @@ h1 {
   width: 40%;
   margin-left: 50px;
 }
+
